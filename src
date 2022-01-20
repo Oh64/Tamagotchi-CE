@@ -1,0 +1,656 @@
+"V : 1.2.5
+{0,0,0,0,0,0}→L₁
+Output(2,22,"   "):Output(5,22,"   "):Output(8,22,"   ")
+EffÉcran
+While K≠92
+affHeure→L₁
+Output(1,1,"IL EST BIEN :")
+Output(1,18,":")
+Output(1,23,"?")
+Output(1,15,L₁(1))
+Output(1,20,L₁(2))
+Output(3,2,"[1]OUI [2]NON")
+getKey→K
+If K=93
+Then
+EffÉcran
+défFmtHr(24)
+Input "(24H) HEURE : ",A
+Input "       MIN : ",B
+Input "        SECONDE :",C
+défHeure(A,B,C)
+EffÉcran
+End
+End
+0→K
+EffÉcran
+While K≠92
+affDate→L₁
+Output(1,1,"ON EST BIEN LE :")
+Output(3,3,":")
+Output(3,6,":")
+Output(3,12,"?")
+Output(3,1,L₁(3))
+Output(3,4,L₁(2))
+Output(3,7,L₁(1))
+Output(5,2,"[1]OUI [2]NON")
+getKey→K
+If K=93
+Then
+EffÉcran
+défFmtDt(1)
+Input "ANNEE : ",A
+Input " MOIS : ",B
+Input "  JOUR :",C
+défDate(A,B,C)
+EffÉcran
+End
+End
+EffÉcran
+DelVar A:DelVar B:DelVar C:DelVar D:DelVar E:DelVar F:DelVar G:DelVar H:DelVar I:DelVar J:DelVar K:DelVar L:DelVar M:DelVar N:DelVar O:DelVar P:DelVar Q:DelVar R:DelVar S:DelVar T:DelVar U:DelVar V:DelVar W:DelVar X:DelVar Y:DelVar Z:DelVar θ:DelVar L₁:DelVar L₂:DelVar L₃:DelVar L₄:DelVar L₅:DelVar L₆:DelVar Chn1:DelVar Chn2:DelVar Chn3:DelVar Chn4:DelVar Chn5:DelVar Chn6:DelVar Chn7:DelVar Chn8:DelVar Chn9:DelVar Chn0
+{0,0}→L₆
+Lbl 4
+Menu("TAMAGOTCHI","QUIT",5," ",4,"CONTINUER",6,"(RE)COMMENCER",7," ",4,"INFO",8," ",4,"(ANNUL POUR QUITTER ET",4,"PROTEGER LA SAUVEGARDE)",4)
+Lbl 5
+EffÉcran
+Stop
+Goto 5
+Lbl 8
+EffÉcran
+Output(1,1,"V: 1.2.5"
+Output(3,1," "
+Output(5,1,"AUCUNE NOTE DE MISE A JOUR"
+Output(10,1,"BY OH11115"
+While K≠45
+getKey→K
+End
+EffÉcran
+0→K
+Goto 4
+Lbl 7
+{0,0,0}→L₆
+10→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+DelVar ⌊TFOOD:DelVar ⌊THAPP:DelVar ⌊THEAL:DelVar ⌊TTIMD:DelVar ⌊TTIMJ:DelVar ⌊TTIMT:DelVar ⌊TTIMU:DelVar ⌊TTXPP
+5→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+{0→⌊TFOOD
+6→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+{0→⌊THAPP
+7→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+{0→⌊THEAL
+8→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+{0→⌊TTIMD
+{0→⌊TTIMJ
+{0→⌊TTIMT
+{0→⌊TTIMU
+9→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+{0→⌊TTXPP
+EffÉcran
+Goto 6
+Lbl 6
+10→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+Désarchiver ⌊TFOOD:Désarchiver ⌊THAPP:Désarchiver ⌊THEAL:Désarchiver ⌊TTIMD:Désarchiver ⌊TTIMJ:Désarchiver ⌊TTIMT:Désarchiver ⌊TTIMU:Désarchiver ⌊TTXPP
+15→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+1→dim(⌊TFOOD
+⌊TFOOD(1→F
+18→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+1→dim(⌊THEAL
+⌊THEAL(1→H
+21→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+1→dim(⌊THAPP
+⌊THAPP(1→E
+28→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+1→dim(⌊TTXPP
+⌊TTXPP(1→X
+32→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+1→dim(⌊TTIMU
+⌊TTIMU(1→T
+41→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+1→dim(⌊TTIMD
+⌊TTIMD(1→S
+45→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+1→dim(⌊TTIMT
+⌊TTIMT(1→N
+50→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+1→dim(⌊TTIMJ
+⌊TTIMJ(1→J
+55→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+Archiver ⌊TFOOD
+60→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+Archiver ⌊THAPP
+65→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+Archiver ⌊THEAL
+70→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+Archiver ⌊TTIMD
+71→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+Archiver ⌊TTIMJ
+72→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+Archiver ⌊TTIMT
+73→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+Archiver ⌊TTIMU
+74→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+Archiver ⌊TTXPP
+75→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+If F=0 et E=0 et H=0
+Then
+EffÉcran
+Disp "Bonjour","tu doit connaitre ce jeu","non ? Le principe","est simple tu a un","animal est tu doit le","nourrir et le faire","jouer...","/entrer\"
+0→X
+0→A
+0→B
+1→G
+Pause 
+End
+0→K
+50→L
+50→M
+EffÉcran
+80→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+affHeure→L₁
+affDate→L₂
+If L₁(1)>T ou L₁(2)>S ou L₂(3)>J
+Then
+0→θ
+L₂(3)-J→L₂(3)
+L₁(1)-T→L₁(1)
+L₁(2)-S→L₁(2)
+L₁(1)+L₂(3)*24→L₁(1)
+If θ=0 et L₁(1)≥100:70→θ
+If θ=0 et L₁(1)≥2:60→θ
+If θ=0 et L₁(1)≥1:50→θ
+If θ=0 et L₁(2)≥50:30→θ
+If θ=0 et L₁(2)≥40:20→θ
+If θ=0 et L₁(2)≥20:10→θ
+If θ=0 et L₁(2)≥10:5→θ
+F-θ→F
+E-θ→E
+85→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+If F<50 et E<50:H-40→H
+End
+If G=1
+Then
+50→E
+50→F
+50→H
+0→X
+0→G
+End
+0→K
+EffÉcran
+100→L₆(3)
+Output(5,10,"LOADING..."
+Output(6,13,L₆(3)
+1→L₆(2)
+EffÉcran
+For(Y,1,10)
+Output(Y,12,"I"
+End
+Désarchiver ⌊TFOOD:Désarchiver ⌊THAPP:Désarchiver ⌊THEAL:Désarchiver ⌊TTIMD:Désarchiver ⌊TTIMJ:Désarchiver ⌊TTIMT:Désarchiver ⌊TTIMU:Désarchiver ⌊TTXPP
+Goto 99
+Lbl 99
+While K≠45
+If (E<50 ou F<50)
+Then
+If L₆(1)≥5
+Then
+If X≥500:H-10→H
+If X≥400 et X<500:H-8→H
+If X≥200 et X<400:H-6→H
+If X≥100 et X<200:H-5→H
+If X≥50 et X<100:H-2→H
+If X≥0 et X<50:H-1→H
+Output(2,22,"   "):Output(5,22,"   "):Output(8,22,"   ")
+{0,1}→L₆
+End
+L₆(1)+1→L₆(1)
+End
+If X≥0 et X<200 et L₆(2)=1
+Then
+Output(1,1,"   ----   "
+Output(2,1,"  I •  I  "
+Output(3,1," I    · I "
+Output(4,1,"I  ·     I"
+Output(5,1,"I     ·  I"
+Output(6,1," I ·    I "
+Output(7,1,"  I    I  "
+Output(8,1,"   ----   "
+0→L₆(2)
+End
+If X≥200 et X<500 et L₆(2)=1
+Then
+Output(1,1,"   ----   "
+Output(2,1,"  I -.-I  "
+Output(3,1,"I-  --  -I"
+Output(4,1,"I -   -- I"
+Output(5,1,"I  -  ·  I"
+Output(6,1," I ·    I "
+Output(7,1,"  I    I  "
+Output(8,1,"   ----   "
+0→L₆(2)
+End
+If X≥500 et L₆(2)=1
+Then
+Output(1,1,"          "
+Output(2,1,"          "
+Output(3,1,"          "
+Output(4,1,"          "
+Output(5,1," "
+Output(6,1,"          "
+Output(7,1,"          "
+Output(8,1,"          "
+If H<30:Output(5,5,"-.-")
+If H<50 et H>30:Output(5,5,"O-O")
+If H=30:Output(5,5,"O.O")
+If H<80 et H>50:Output(5,5,"OvO")
+If H=50:Output(5,5,"O­O")
+If H≤100 et H>80:Output(5,5,"OwO")
+If H=80:Output(5,5,"O^O")
+0→L₆(2)
+End
+Output(2,14,"FOOD :")
+Output(2,22,F)
+If F=95:Output(2,24," ")
+Output(3,14,"(F)")
+If F>100:100→F
+If F<0:0→F
+Output(5,14,"LIFE :")
+Output(5,22,H)
+Output(10,1,"XP :")
+Output(10,6,X)
+If H=95:Output(5,24," ")
+If H>100:100→H
+If H<0:0→H
+Output(8,14,"HAPPY :")
+Output(8,22,E)
+If E=95:Output(8,24," ")
+Output(9,14,"(E)")
+If E>100:100→E
+If E<0:0→E
+{F→⌊TFOOD
+{E→⌊THAPP
+{H→⌊THEAL
+{X→⌊TTXPP
+affHeure→L₁
+affDate→L₂
+L₁(1)→T
+L₁(2)→S
+L₁(3)→N
+L₂(3)→J
+{T→⌊TTIMU
+{S→⌊TTIMD
+{N→⌊TTIMT
+{J→⌊TTIMJ
+getKey→K
+If H<0:0→H
+If K=53 et F≠100
+Then
+F+5→F
+X+1→X
+0→K
+End
+If M=N et L=N
+Then
+F-10→F
+E-10→E
+If M=59:31→M
+If M=30:59→M
+If L=31:30→L
+Output(2,22,"   "):Output(5,22,"   "):Output(8,22,"   ")
+End
+If (E<50 ou F<50) et L=N
+Then
+H-1→H
+affHeure→L₂
+If L=59:31→L
+If L=30:59→L
+If L=31:30→L
+1→L₆(2)
+End
+If (E>50 ou F>50) et non(H≥100)
+Then
+If E>71 et F>71
+Then
+H+5→H
+1→L₆(2)
+End
+If E<71 et F<71 et H<71
+Then
+H+5→H
+1→L₆(2)
+End
+End
+If K=52 et E≠100
+Then
+{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}→L₃
+nbrAléatEnt(1,100)→L₃(1)
+If L₃(1)≥1 et L₃(1)≤17
+Then
+Lbl J0
+EffÉcran
+Menu("IL NE VEUX PAS JOUER","      ",J0,"JOUER QUAND MEME",J2,"NE PAS JOUER",J3)
+Lbl J2
+EffÉcran
+Output(1,1,"IL N'EST PAS CONTENT..."
+Wait 3
+EffÉcran
+E-10→E
+Goto J4
+Lbl J3
+E+10→E
+X+5→X
+Goto J4
+End
+If L₃(1)>17 et L₃(1)≤69
+Then
+{0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}→L₃
+Lbl J1
+EffÉcran
+nbrAléatEnt(1,10)→L₃(2)
+nbrAléatEnt(1,10)→L₃(3)
+L₃(2)+L₃(3)→L₃(4)
+While L₃(4)≠L₃(5)
+Output(1,6,"+"
+Output(1,12,"="
+Output(1,2,L₃(2)
+Output(1,8,L₃(3)
+Output(4,1,":"
+Output(9,1,"NUM POUR LES CHIFFRE      SUPPR POUR SUPPRIMER"
+If L₃(6)≠0:Output(4,2,L₃(6)
+If L₃(6)=0:Output(4,2," "
+If L₃(7)≠11:Output(4,3,L₃(7)
+If L₃(7)=11:Output(4,3," "
+If (L₃(6)≥1 ou L₃(6)≤9) et L₃(7)=11:L₃(6)→L₃(5)
+If L₃(6)=1 et L₃(7)=0:10→L₃(5)
+If L₃(6)=1 et L₃(7)=1:11→L₃(5)
+If L₃(6)=1 et L₃(7)=2:12→L₃(5)
+If L₃(6)=1 et L₃(7)=3:13→L₃(5)
+If L₃(6)=1 et L₃(7)=4:14→L₃(5)
+If L₃(6)=1 et L₃(7)=5:15→L₃(5)
+If L₃(6)=1 et L₃(7)=6:16→L₃(5)
+If L₃(6)=1 et L₃(7)=7:17→L₃(5)
+If L₃(6)=1 et L₃(7)=8:18→L₃(5)
+If L₃(6)=1 et L₃(7)=9:19→L₃(5)
+If L₃(6)=2 et L₃(7)=0:20→L₃(5)
+getKey→K
+If K=23
+Then
+If L₃(7)=11:0→L₃(6)
+If L₃(6)≠0:11→L₃(7)
+End
+If K=45
+Then
+0→L₃(6)
+11→L₃(7)
+End
+If K=102
+Then
+If L₃(6)≠0:0→L₃(7)
+0→K
+End
+If K=92
+Then
+If L₃(6)≠0:1→L₃(7)
+If L₃(6)=0:1→L₃(6)
+0→K
+End
+If K=93
+Then
+If L₃(6)≠0:2→L₃(7)
+If L₃(6)=0:2→L₃(6)
+0→K
+End
+If K=94
+Then
+If L₃(6)≠0:3→L₃(7)
+If L₃(6)=0:3→L₃(6)
+0→K
+End
+If K=82
+Then
+If L₃(6)≠0:4→L₃(7)
+If L₃(6)=0:4→L₃(6)
+0→K
+End
+If K=83
+Then
+If L₃(6)≠0:5→L₃(7)
+If L₃(6)=0:5→L₃(6)
+0→K
+End
+If K=84
+Then
+If L₃(6)≠0:6→L₃(7)
+If L₃(6)=0:6→L₃(6)
+0→K
+End
+If K=72
+Then
+If L₃(6)≠0:7→L₃(7)
+If L₃(6)=0:7→L₃(6)
+0→K
+End
+If K=73
+Then
+If L₃(6)≠0:8→L₃(7)
+If L₃(6)=0:8→L₃(6)
+0→K
+End
+If K=74
+Then
+If L₃(6)≠0:9→L₃(7)
+If L₃(6)=0:9→L₃(6)
+0→K
+End
+End
+E+10→E
+X+2→X
+0→K
+EffÉcran
+Goto J4
+End
+If L₃(1)>69 et L₃(1)≤100
+Then
+{76,0,0,0,0,0,0,0,0,0,0,0,0,0}→L₃
+" "→Chn9
+Goto J5
+Lbl J5
+EffÉcran
+nbrAléatEnt(0,9)→L₃(3)
+If L₃(3)=0
+Then
+"0"→Chn9
+102→L₃(4)
+End
+If L₃(3)=1
+Then
+"1"→Chn9
+92→L₃(4)
+End
+If L₃(3)=2
+Then
+"2"→Chn9
+93→L₃(4)
+End
+If L₃(3)=3
+Then
+"3"→Chn9
+94→L₃(4)
+End
+If L₃(3)=4
+Then
+"4"→Chn9
+82→L₃(4)
+End
+If L₃(3)=5
+Then
+"5"→Chn9
+83→L₃(4)
+End
+If L₃(3)=6
+Then
+"6"→Chn9
+84→L₃(4)
+End
+If L₃(3)=7
+Then
+"7"→Chn9
+72→L₃(4)
+End
+If L₃(3)=8
+Then
+"8"→Chn9
+73→L₃(4)
+End
+If L₃(3)=9
+Then
+"9"→Chn9
+74→L₃(4)
+End
+0→L₃(5)
+Lbl J6
+If L₃(2)≥5:Goto J7
+0→K
+Output(1,1,"APPUIE SUR :"
+Output(5,13,Chn9
+getKey→K
+If K=L₃(4)
+Then
+EffÉcran
+Output(1,1,"OUIII !"
+0→K
+Wait 1
+EffÉcran
+L₃(2)+1→L₃(2)
+L₃(6)+1→L₃(6)
+Goto J5
+End
+If (K≠0 et K≠L₃(4)) ou L₃(5)=13
+Then
+EffÉcran
+Output(1,1,"..."
+0→K
+Wait 1
+EffÉcran
+L₃(2)+1→L₃(2)
+Goto J5
+End
+L₃(5)+1→L₃(5)
+Goto J6
+Lbl J7
+E+L₃(6)→E
+X+2→X
+Goto J4
+End
+Goto J4
+Lbl J4
+Output(2,22,"   "):Output(5,22,"   "):Output(8,22,"   ")
+1→L₆(2)
+0→K
+For(Y,1,10)
+Output(Y,12,"I"
+End
+Goto 99
+End
+If H=0
+Then
+EffÉcran
+Output(1,1,"PERDU...")
+{0→⌊TFOOD
+{0→⌊THAPP
+{0→⌊THEAL
+{0→⌊TTIMD
+{0→⌊TTIMJ
+{0→⌊TTIMT
+{0→⌊TTIMU
+{0→⌊TTXPP
+Wait 1
+Stop
+End
+End
+EffÉcran
+Output(5,9,"SAUVEGARDE..."
+{0,0,0}→L₆:Output(6,9,L₆(3)
+{F→⌊TFOOD
+5→L₆(3):Output(6,9,L₆(3)
+{E→⌊THAPP
+15→L₆(3):Output(6,9,L₆(3)
+{H→⌊THEAL
+25→L₆(3):Output(6,9,L₆(3)
+{X→⌊TTXPP
+30→L₆(3):Output(6,9,L₆(3)
+{T→⌊TTIMU
+35→L₆(3):Output(6,9,L₆(3)
+{S→⌊TTIMD
+40→L₆(3):Output(6,9,L₆(3)
+{N→⌊TTIMT
+45→L₆(3):Output(6,9,L₆(3)
+{J→⌊TTIMJ
+50→L₆(3):Output(6,9,L₆(3)
+Archiver ⌊TFOOD
+55→L₆(3):Output(6,9,L₆(3)
+Archiver ⌊THAPP
+65→L₆(3):Output(6,9,L₆(3)
+Archiver ⌊THEAL
+75→L₆(3):Output(6,9,L₆(3)
+Archiver ⌊TTIMD
+80→L₆(3):Output(6,9,L₆(3)
+Archiver ⌊TTIMJ
+85→L₆(3):Output(6,9,L₆(3)
+Archiver ⌊TTIMT
+90→L₆(3):Output(6,9,L₆(3)
+Archiver ⌊TTIMU
+95→L₆(3):Output(6,9,L₆(3)
+Archiver ⌊TTXPP
+100→L₆(3):Output(6,9,L₆(3)
+EffÉcran
