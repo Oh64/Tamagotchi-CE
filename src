@@ -1,4 +1,6 @@
-"V : 1.2.5
+:DCS
+"BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB3BBB3BBBBBB3BBB33BBB3BBBBBB3BBB33BBB3BBBBBB3BBB33BBB3BBBBBB3BBB33BBB3BBBBBB3BBB3B333BBBBBBBB333BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB3BBBBBB3BBBBBBBBB333333BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+"BY OH11115  
 {0,0,0,0,0,0}→L₁
 Output(2,22,"   "):Output(5,22,"   "):Output(8,22,"   ")
 EffÉcran
@@ -69,115 +71,70 @@ EffÉcran
 Goto 4
 Lbl 7
 {0,0,0}→L₆
-10→L₆(3)
 Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"3"
 DelVar ⌊TFOOD:DelVar ⌊THAPP:DelVar ⌊THEAL:DelVar ⌊TTIMD:DelVar ⌊TTIMJ:DelVar ⌊TTIMT:DelVar ⌊TTIMU:DelVar ⌊TTXPP
-5→L₆(3)
 Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"5"
 {0→⌊TFOOD
-6→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"6"
 {0→⌊THAPP
-7→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"7"
 {0→⌊THEAL
-8→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"8"
 {0→⌊TTIMD
 {0→⌊TTIMJ
 {0→⌊TTIMT
 {0→⌊TTIMU
-9→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"9"
 {0→⌊TTXPP
 EffÉcran
 Goto 6
 Lbl 6
-10→L₆(3)
 Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"10"
 Désarchiver ⌊TFOOD:Désarchiver ⌊THAPP:Désarchiver ⌊THEAL:Désarchiver ⌊TTIMD:Désarchiver ⌊TTIMJ:Désarchiver ⌊TTIMT:Désarchiver ⌊TTIMU:Désarchiver ⌊TTXPP
-15→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"15"
 1→dim(⌊TFOOD
 ⌊TFOOD(1→F
-18→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"18"
 1→dim(⌊THEAL
 ⌊THEAL(1→H
-21→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"21"
 1→dim(⌊THAPP
 ⌊THAPP(1→E
-28→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"28"
 1→dim(⌊TTXPP
 ⌊TTXPP(1→X
-32→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"32"
 1→dim(⌊TTIMU
 ⌊TTIMU(1→T
-41→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"41"
 1→dim(⌊TTIMD
 ⌊TTIMD(1→S
-45→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"45"
 1→dim(⌊TTIMT
 ⌊TTIMT(1→N
-50→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"50"
 1→dim(⌊TTIMJ
 ⌊TTIMJ(1→J
-55→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"55"
 Archiver ⌊TFOOD
-60→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"60"
 Archiver ⌊THAPP
-65→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"65"
 Archiver ⌊THEAL
-70→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"70"
 Archiver ⌊TTIMD
-71→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"71"
 Archiver ⌊TTIMJ
-72→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"72"
 Archiver ⌊TTIMT
-73→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"73"
 Archiver ⌊TTIMU
-74→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"74"
 Archiver ⌊TTXPP
-75→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"75"
 If F=0 et E=0 et H=0
 Then
 EffÉcran
@@ -192,13 +149,13 @@ End
 50→L
 50→M
 EffÉcran
-80→L₆(3)
 Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"80"
 affHeure→L₁
 affDate→L₂
 If L₁(1)>T ou L₁(2)>S ou L₂(3)>J
 Then
+Output(6,13,"83"
 0→θ
 L₂(3)-J→L₂(3)
 L₁(1)-T→L₁(1)
@@ -213,9 +170,7 @@ If θ=0 et L₁(2)≥20:10→θ
 If θ=0 et L₁(2)≥10:5→θ
 F-θ→F
 E-θ→E
-85→L₆(3)
-Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"85"
 If F<50 et E<50:H-40→H
 End
 If G=1
@@ -228,9 +183,8 @@ Then
 End
 0→K
 EffÉcran
-100→L₆(3)
 Output(5,10,"LOADING..."
-Output(6,13,L₆(3)
+Output(6,13,"100"
 1→L₆(2)
 EffÉcran
 For(Y,1,10)
@@ -250,6 +204,7 @@ If X≥200 et X<400:H-6→H
 If X≥100 et X<200:H-5→H
 If X≥50 et X<100:H-2→H
 If X≥0 et X<50:H-1→H
+If H≤1 et E≤50 et F>50:1→H
 Output(2,22,"   "):Output(5,22,"   "):Output(8,22,"   ")
 {0,1}→L₆
 End
@@ -350,7 +305,8 @@ Output(2,22,"   "):Output(5,22,"   "):Output(8,22,"   ")
 End
 If (E<50 ou F<50) et L=N
 Then
-H-1→H
+H-5→H
+If H≤1 et E≤50 et F>50:1→H
 affHeure→L₂
 If L=59:31→L
 If L=30:59→L
@@ -360,11 +316,6 @@ End
 If (E>50 ou F>50) et non(H≥100)
 Then
 If E>71 et F>71
-Then
-H+5→H
-1→L₆(2)
-End
-If E<71 et F<71 et H<71
 Then
 H+5→H
 1→L₆(2)
@@ -614,43 +565,43 @@ Output(1,1,"PERDU...")
 {0→⌊TTIMT
 {0→⌊TTIMU
 {0→⌊TTXPP
-Wait 1
+Pause 
 Stop
 End
 End
 EffÉcran
 Output(5,9,"SAUVEGARDE..."
-{0,0,0}→L₆:Output(6,9,L₆(3)
+Output(6,9,"0"
 {F→⌊TFOOD
-5→L₆(3):Output(6,9,L₆(3)
+Output(6,9,"5"
 {E→⌊THAPP
-15→L₆(3):Output(6,9,L₆(3)
+Output(6,9,"15"
 {H→⌊THEAL
-25→L₆(3):Output(6,9,L₆(3)
+Output(6,9,"25"
 {X→⌊TTXPP
-30→L₆(3):Output(6,9,L₆(3)
+Output(6,9,"30"
 {T→⌊TTIMU
-35→L₆(3):Output(6,9,L₆(3)
+Output(6,9,"35"
 {S→⌊TTIMD
-40→L₆(3):Output(6,9,L₆(3)
+Output(6,9,"40"
 {N→⌊TTIMT
-45→L₆(3):Output(6,9,L₆(3)
+Output(6,9,"45"
 {J→⌊TTIMJ
-50→L₆(3):Output(6,9,L₆(3)
+Output(6,9,"50"
 Archiver ⌊TFOOD
-55→L₆(3):Output(6,9,L₆(3)
+Output(6,9,"55"
 Archiver ⌊THAPP
-65→L₆(3):Output(6,9,L₆(3)
+Output(6,9,"65"
 Archiver ⌊THEAL
-75→L₆(3):Output(6,9,L₆(3)
+Output(6,9,"75"
 Archiver ⌊TTIMD
-80→L₆(3):Output(6,9,L₆(3)
+Output(6,9,"80"
 Archiver ⌊TTIMJ
-85→L₆(3):Output(6,9,L₆(3)
+Output(6,9,"85"
 Archiver ⌊TTIMT
-90→L₆(3):Output(6,9,L₆(3)
+Output(6,9,"90"
 Archiver ⌊TTIMU
-95→L₆(3):Output(6,9,L₆(3)
+Output(6,9,"95"
 Archiver ⌊TTXPP
-100→L₆(3):Output(6,9,L₆(3)
+Output(6,9,"100"
 EffÉcran
